@@ -1,5 +1,6 @@
 import React from 'react'
-import Navigation from '/Users/keshavkumar/Desktop/untitled folder 5/my-app/src/components/Navigation.jsx';
+import Navigation from './components/Navigation';
+
 
 import HomePages from './components/pages/HomePages'
 import './index.css';

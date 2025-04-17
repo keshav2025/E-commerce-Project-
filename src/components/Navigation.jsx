@@ -10,7 +10,7 @@ import {
 // import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Avatar, Button, Menu, MenuItem } from "@mui/material";
 // import { navigation } from "../../../config/navigationMenu";
-import navigation  from "./navigation";
+import navigation  from "./naavigation";
 
 import { deepPurple } from "@mui/material/colors";
 ;
