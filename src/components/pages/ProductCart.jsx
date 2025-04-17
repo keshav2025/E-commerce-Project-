@@ -1,26 +1,31 @@
-import React from 'react'
+import React from 'react';
 
-const ProductCart = () => {
+const ProductCart = ({Product}) => {
   return (
-    <div className='ProductCart w-[15rem] m-3 transition-all duration-300 hover:scale-105 hover:shadow-lg cursor-pointer border border-gray-200 rounded-lg overflow-hidden'>
-      <div className='h-[20rem]'>
+    <div className="ProductCart w-[14rem] m-4 mx-3 transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-2xl cursor-pointer border border-gray-300 rounded-lg overflow-hidden bg-white shadow-md hover:shadow-lg">
+      <div className="h-[15rem]">
         <img
-          className='h-full w-full object-cover object-center'
-          src='https://m.media-amazon.com/images/I/71VCxuyXp0L._AC_UL640_FMwebp_QL65_.jpg'
-          alt='Product Image'
+          className="h-full w-full object-cover object-center transition-all duration-300 hover:scale-105"
+          src={Product.imageUrl}
+          alt="Product Image"
         />
       </div>
-      <div className='p-3'>
-        <h3 className='text-lg font-semibold text-gray-800'>CoolBreeze Split AC</h3>
-        <p className='text-sm text-gray-500 mt-1'>1.5 Ton 5 Star Inverter Split AC with Auto Clean</p>
-        <div className='mt-2'>
-          <span className='text-lg font-bold text-green-600'>₹32,499</span>
-          <span className='text-sm text-gray-400 line-through ml-2'>₹42,999</span>
-          <span className='text-sm text-red-500 ml-2'>(24% OFF)</span>
+      <div className="p-4">
+        <h3 className="text-xl font-semibold text-gray-800 hover:text-blue-600 transition-all duration-200">
+         {Product.brand}
+        </h3>
+        <p className="text-sm text-gray-500 mt-2 line-clamp-2">
+          {Product.title}
+        </p>
+        <div className="mt-3 flex items-center">
+          <span className="text-xl font-bold text-green-600">{Product.price}</span>
+          <span className="text-sm text-gray-400 line-through ml-3">{Product.discountedPrice}</span>
+          <span className="text-sm text-red-500 ml-3 font-medium">{Product.discountPersent}%</span>
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default ProductCart
+export default ProductCart;
+

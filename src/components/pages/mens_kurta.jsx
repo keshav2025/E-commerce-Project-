@@ -226,7 +226,7 @@ export const mens_kurta=[
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
-        "imageUrl": "https://m.media-amazon.com/images/I/61us6+8XYeL._AC_UY436_FMwebp_QL65_.jpg",
+        "imageUrl": "https://m.media-amazon.com/images/I/31XydCSSTFL._AC_SY400_.jpg",
         "brand": "FRELURO",
         "title": "Men Printed Cotton Blend Straight Kurta",
         "color": "Yellow",
@@ -254,7 +254,7 @@ export const mens_kurta=[
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
-        "imageUrl": "https://rukminim1.flixcart.com/image/612/612/jsj90280/kurta/j/z/g/l-mtmkos0004-326-manthan-original-imafe35wha5ry36p.jpeg?q=70",
+        "imageUrl": "https://m.media-amazon.com/images/I/31XydCSSTFL._AC_SY400_.jpg",
         "brand": "Manthan",
         "title": "Men Self Design Cotton Blend Straight Kurta",
         "color": "Light Blue",
@@ -282,7 +282,7 @@ export const mens_kurta=[
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
-        "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/kurta/g/f/f/xl-grey-sws4503-allan-peter-original-imag6xxgvvh59gh5-bb.jpeg?q=70",
+        "imageUrl": "https://m.media-amazon.com/images/I/31XydCSSTFL._AC_SY400_.jpg",
         "brand": "allan peter",
         "title": "Men Solid Pure Cotton Straight Kurta",
         "color": "Green",
@@ -310,7 +310,7 @@ export const mens_kurta=[
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
-        "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/kurta/u/g/z/xl-8button-kurta-elepants-original-imagk57kfg2bwvhd.jpeg?q=70",
+        "imageUrl": "https://m.media-amazon.com/images/I/31XydCSSTFL._AC_SY400_.jpg",
         "brand": "COMBRAIDED",
         "title": "Men Solid Cotton Blend Straight Kurta",
         "color": "Dark Blue",
@@ -338,7 +338,7 @@ export const mens_kurta=[
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
-        "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/kurta/7/b/q/xl-short-button-yellow-101-deal4mens-original-imagf6nzhwufyygg.jpeg?q=70",
+        "imageUrl": "https://m.media-amazon.com/images/I/31XydCSSTFL._AC_SY400_.jpg",
         "brand": "FOLGEN",
         "title": "Men Solid Cotton Blend Straight Kurta",
         "color": "Yellow",

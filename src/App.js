@@ -6,6 +6,7 @@ import HomePages from './components/pages/HomePages'
 import './index.css';
 import Footer from './components/HomeSectionCard/Footer';
 import Product from './components/pages/Product';
+import ProductsDetails from './components/pages/ProductsDetails';
 
 function App() {
   return (
@@ -13,8 +14,9 @@ function App() {
       
       <Navigation/>
       <div>
-      <HomePages/>
-      <Product/>
+      <HomePages/> 
+       <Product/>
+      <ProductsDetails/>
       </div>
       <Footer/>
     </div>
