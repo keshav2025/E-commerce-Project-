@@ -29,6 +29,8 @@ export default function Navigation() {
   const [anchorEl, setAnchorEl] = useState(null);
   const openUserMenu = Boolean(anchorEl);
   const jwt = localStorage.getItem("jwt");
+  
+
   // const location = useLocation();
 
   // useEffect(() => {
@@ -189,7 +191,7 @@ export default function Navigation() {
                               {section.items.map((item) => (
                                 <li key={item.name} className="flow-root">
                                   <p className="-m-2 block p-2 text-gray-500">
-                                    {"item.name"}
+                                    {item.name}
                                   </p>
                                 </li>
                               ))}
@@ -486,6 +488,8 @@ export default function Navigation() {
               </div>
             </div>
           </div>
+          
+
         </nav>
       </header>
       
